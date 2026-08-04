@@ -82,4 +82,21 @@ h1{
 h2{
     border-bottom:3px solid #0b3d91;
     padding-bottom:8px;
+
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:#ffd700;
+    color:#0b3d91;
+    font-weight:bold;
+    border-radius:8px;
+    text-decoration:none;
+    transition:0.3s;
 }
+
+.btn:hover{
+    background:white;
+    color:#0b3d91;
+}    
