@@ -59,23 +59,39 @@ I enjoy learning Linux, Networking, Git, Windows Server and building practical p
 
 <h2>Skills</h2>
 
-<ul>
+<div class="skills-grid">
 
-<li>Linux</li>
+    <div class="skill-card">
+        <h3>🐧 Linux</h3>
+        <p>Intermediate</p>
+    </div>
 
-<li>Networking</li>
+    <div class="skill-card">
+        <h3>🌐 Networking</h3>
+        <p>Learning</p>
+    </div>
 
-<li>Windows Server</li>
+    <div class="skill-card">
+        <h3>☁ Windows Server</h3>
+        <p>Learning</p>
+    </div>
 
-<li>Git</li>
+    <div class="skill-card">
+        <h3>🔀 Git & GitHub</h3>
+        <p>Learning</p>
+    </div>
 
-<li>GitHub</li>
+    <div class="skill-card">
+        <h3>💻 PowerShell</h3>
+        <p>Beginner</p>
+    </div>
 
-<li>PowerShell</li>
+    <div class="skill-card">
+        <h3>📡 Fiber Optics</h3>
+        <p>Training</p>
+    </div>
 
-<li>Fiber Optics</li>
-
-</ul>
+</div>
 
 </section>
 
@@ -83,14 +99,27 @@ I enjoy learning Linux, Networking, Git, Windows Server and building practical p
 
 <h2>Projects</h2>
 
-<ul>
+<div class="projects-grid">
 
-<li>Linux Lab</li>
-<li>Portfolio Website</li>
-<li>Networking Labs</li>
+    <div class="project-card">
+        <h3>🐧 Linux Lab</h3>
+        <p>Linux commands, Bash scripting and system administration practice.</p>
+        <span>Completed</span>
+    </div>
 
-</ul>
+    <div class="project-card">
+        <h3>🌐 Networking Lab</h3>
+        <p>Subnetting, static routing, GNS3 and MikroTik RouterOS.</p>
+        <span>In Progress</span>
+    </div>
 
+    <div class="project-card">
+        <h3>💻 Portfolio Website</h3>
+        <p>Responsive website built with HTML, CSS, Git and GitHub.</p>
+        <span>Completed</span>
+    </div>
+
+</div>
 </section>
 
 <section id="contact">
@@ -137,3 +166,43 @@ I enjoy learning Linux, Networking, Git, Windows Server and building practical p
 
 </body>
 </html>
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:20px;
+}
+
+.project-card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.12);
+    transition:0.3s;
+    border-top:5px solid #1565c0;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+.project-card h3{
+    color:#0b3d91;
+    margin-bottom:10px;
+}
+
+.project-card p{
+    color:#555;
+    margin-bottom:20px;
+}
+
+.project-card span{
+    background:#0b3d91;
+    color:white;
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+}
