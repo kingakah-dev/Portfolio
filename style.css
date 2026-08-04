@@ -82,7 +82,7 @@ h1{
 h2{
     border-bottom:3px solid #0b3d91;
     padding-bottom:8px;
-
+}
 
 .btn{
     display:inline-block;
@@ -103,4 +103,4 @@ h2{
     background:#ffffff;
     color:#1565c0;
     transform:scale(1.05);
-}}
+}
