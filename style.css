@@ -206,3 +206,44 @@ h2{
     background:#ffd700;
     transform:translateY(-3px);
 }
+
+/* Mobile Responsive Design */
+
+@media (max-width:768px){
+
+    nav a{
+        display:block;
+        margin:10px 0;
+        font-size:18px;
+    }
+
+    header{
+        padding:40px 20px;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    h2{
+        font-size:24px;
+    }
+
+    .btn{
+        display:block;
+        margin:15px auto;
+        width:220px;
+    }
+
+    .social-links a{
+        display:block;
+        width:220px;
+        margin:10px auto;
+    }
+
+    section{
+        margin:15px;
+        padding:20px;
+    }
+
+}
